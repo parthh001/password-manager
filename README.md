@@ -122,9 +122,7 @@ Password Saved Successfully.
 
 ---
 
-## Screenshot
 
-Add a screenshot later:
 
 ```md
 ![Password Manager Screenshot](screenshot.png)
