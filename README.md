@@ -1,74 +1,186 @@
-# Password Manager
+# 🔐 Password Manager
 
-A command-line Password Manager built with Python that allows users to securely store, search, generate, and delete passwords.
+A command-line Password Manager built with Python that allows users to securely store, view, search, and delete passwords using JSON-based local storage.
+
+This project was created to practice Python fundamentals such as file handling, JSON manipulation, functions, loops, conditionals, and modular program design.
+
+---
 
 ## Features
 
-* Store passwords for different websites
-* Automatically generate strong passwords
-* View all saved passwords
-* Search passwords by website name
-* Delete saved passwords
-* Persistent storage using JSON
-* Simple and beginner-friendly command-line interface
+✅ Add new passwords
+
+✅ View all saved passwords
+
+✅ Search passwords by website name
+
+✅ Delete stored passwords
+
+✅ Persistent storage using JSON
+
+✅ Menu-driven interface
+
+✅ Input validation
+
+---
 
 ## Technologies Used
 
-* Python 3
-* JSON
-* Random Module
-* String Module
+- Python 3
+- JSON
+- File Handling
+- Functions
+- Lists
+- Dictionaries
+
+No external libraries are required.
+
+---
 
 ## Project Structure
 
+```text
 password-manager/
-
+│
 ├── password_manager.py
-
 ├── vault.json
-
 ├── README.md
+├── LICENSE
+└── .gitignore
+```
 
-├── .gitignore
+### File Description
 
-└── LICENSE
+| File | Purpose |
+|--------|----------|
+| password_manager.py | Main application |
+| vault.json | Stores saved password data |
+| README.md | Project documentation |
+| LICENSE | Open-source license |
+| .gitignore | Git ignored files |
 
-## How To Run
+---
 
-1. Clone the repository
+## How It Works
 
-git clone https://github.com/YOUR_USERNAME/password-manager.git
+The program stores passwords inside a local JSON file.
 
-2. Open the project folder
+Example:
 
-3. Run:
+```json
+{
+    "gmail.com": "gmail_password",
+    "github.com": "github_password",
+    "linkedin.com": "linkedin_password"
+}
+```
 
+The application loads data from the JSON file, performs the requested operation, and updates the file automatically.
+
+---
+
+## Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/parthh001/password-manager.git
+```
+
+### 2. Navigate to Project Folder
+
+```bash
+cd password-manager
+```
+
+### 3. Run Program
+
+```bash
 python password_manager.py
+```
 
-## Example
+---
 
-===== PASSWORD MANAGER =====
+## Example Usage
+
+```text
+PASSWORD MANAGER
 
 1. Add Password
-
 2. View Passwords
-
 3. Search Password
-
 4. Delete Password
-
 5. Exit
 
-Choose option:
+Choose an option: 1
+
+Website: github.com
+Password: mypassword123
+
+Password Saved Successfully.
+```
+
+---
+
+## Screenshot
+
+Add a screenshot later:
+
+```md
+![Password Manager Screenshot](screenshot.png)
+```
+
+---
+
+## Learning Outcomes
+
+While building this project, I practiced:
+
+- Python Functions
+- Loops
+- Conditional Statements
+- Dictionaries
+- JSON Handling
+- Reading and Writing Files
+- Program Structure
+- Git and GitHub Workflow
+
+---
 
 ## Future Improvements
 
-* Master password authentication
-* Password encryption
-* Password strength analysis
-* GUI version using Tkinter
-* Export passwords to CSV
+Potential upgrades for future versions:
+
+- Password Encryption
+- Master Password Authentication
+- Password Generator Integration
+- Password Strength Checker
+- Export to CSV
+- GUI Version using Tkinter
+- Database Storage using SQLite
+
+---
+
+## Version
+
+Current Release:
+
+```text
+v1.0.0
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
 
 ## Author
 
-Parth Patil
+**Parth Patil**
+
+GitHub: https://github.com/parthh001
