@@ -22,7 +22,7 @@ This project was created to practice Python fundamentals such as file handling, 
 
 ✅ Input validation
 
----
+----
 
 ## Technologies Used
 
