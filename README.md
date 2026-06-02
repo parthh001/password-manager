@@ -49,19 +49,24 @@ password-manager/
 ├── password_manager.py
 ├── vault.json
 ├── README.md
+├── CHANGELOG.md
 ├── LICENSE
 └── .gitignore
 ```
 
-### File Description
+---
 
-| File | Purpose |
-|--------|----------|
-| password_manager.py | Main application |
-| vault.json | Stores saved password data |
-| README.md | Project documentation |
-| LICENSE | Open-source license |
-| .gitignore | Git ignored files |
+## File Description
+
+| File                | Purpose                              |
+| ------------------- | ------------------------------------ |
+| password_manager.py | Main application                     |
+| vault.json          | Stores saved password data           |
+| README.md           | Project documentation                |
+| CHANGELOG.md        | Records project versions and updates |
+| LICENSE             | Open-source license                  |
+| .gitignore          | Git ignored files                    |
+
 
 ---
 
