@@ -1,9 +1,6 @@
 <img width="1584" height="396" alt="Abstract Technology Profile LinkedIn Banner" src="https://github.com/user-attachments/assets/bc0f49ed-b4a4-4ae5-9fb4-89c1af2e339d" />
 
 ---
----
----
-
 # 🔐 Password Manager
 
 A command-line Password Manager built with Python that allows users to securely store, view, search, and delete passwords using JSON-based local storage.
