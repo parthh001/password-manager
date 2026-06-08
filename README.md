@@ -129,15 +129,6 @@ Password Saved Successfully.
 ```
 
 ---
-
-
-
-```md
-![Password Manager Screenshot](screenshot.png)
-```
-
----
-
 ## Learning Outcomes
 
 While building this project, I practiced:
