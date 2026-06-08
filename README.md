@@ -1,5 +1,8 @@
 <img width="1584" height="396" alt="Abstract Technology Profile LinkedIn Banner" src="https://github.com/user-attachments/assets/bc0f49ed-b4a4-4ae5-9fb4-89c1af2e339d" />
 
+68747470733a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f706f77657265642d62792d636f666665652e737667 
+
+
 
 
 # 🔐 Password Manager
